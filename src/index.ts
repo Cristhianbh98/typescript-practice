@@ -16,5 +16,4 @@ const bin = 0b1010 // 10
 console.log('bin', bin)
 
 const data = { data: 'hello' }
-
 const Data = { data: 'new-hello', age: 10 }
