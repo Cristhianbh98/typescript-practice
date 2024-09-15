@@ -1,7 +1,7 @@
 (function () {
-  type Size = "sm" | "md" | "lg"
+  type Size = 'sm' | 'md' | 'lg'
 
-  function createProductToJson(
+  function createProductToJson (
     title: string,
     createAt: Date,
     stock: number,
@@ -15,7 +15,7 @@
     }
   }
 
-  const product = createProductToJson("Shirt", new Date(), 100, "md")
+  const product = createProductToJson('Shirt', new Date(), 100, 'md')
   console.log(product.createAt.getTime())
 
   const createProductToJsonV2 = (
@@ -30,7 +30,6 @@
     size
   })
 
-  const productv2 = createProductToJsonV2("Shirt", new Date(), 100)
+  const productv2 = createProductToJsonV2('Shirt', new Date(), 100)
   console.log(productv2.size)
-
 })()

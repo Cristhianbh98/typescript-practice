@@ -1,6 +1,6 @@
 (() => {
-  type Login = {
-    email: string,
+  interface Login {
+    email: string
     password: number
   }
 
@@ -9,14 +9,14 @@
   }
 
   login({
-    email: "cristhianbacusoy@gmail.com",
+    email: 'cristhianbacusoy@gmail.com',
     password: 123456
   })
 
-  type Product = {
-    title: string,
-    price: number,
-    stock: number,
+  interface Product {
+    title: string
+    price: number
+    stock: number
     size?: 's' | 'm' | 'l'
   }
 

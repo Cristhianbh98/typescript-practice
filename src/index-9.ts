@@ -6,4 +6,3 @@ const rta = subDays(date, 2)
 const str = format(rta, 'yyyy-MM-dd')
 
 console.log(str)
-

@@ -1,20 +1,20 @@
-let genericName = 'John Doe'
+const genericName = 'John Doe'
 
-let productInStock: number;
+let productInStock: number
 
 productInStock = 10
 console.log(productInStock)
 
 console.log(`Hello, ${genericName}!`)
 
-let hex = 0xfff
+const hex = 0xfff
 
 console.log('hex', hex)
 
-let bin = 0b1010 // 10
+const bin = 0b1010 // 10
 
 console.log('bin', bin)
 
-const data = { data: "hello" }
+const data = { data: 'hello' }
 
-const Data = { data: "new-hello", age: 10 }	
+const Data = { data: 'new-hello', age: 10 }
